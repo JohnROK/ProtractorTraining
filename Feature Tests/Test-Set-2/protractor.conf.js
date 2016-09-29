@@ -38,7 +38,7 @@ exports.config = {
         jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
             consolidateAll: true,
             savePath: 'testResults',
-            filePrefix: 'SFC_Command_Test_Results'
+            filePrefix: 'Test_Results2'
         }));
 
         //Establish connection with BatchServer interface & log into Batch View client

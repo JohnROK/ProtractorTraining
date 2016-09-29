@@ -1,0 +1,16 @@
+{
+  "name": "m",
+  "version": "1.0.0",
+  "description": "Protractor Training.",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Armstrong",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine-reporters": "^2.0.0"
+  }
+}
