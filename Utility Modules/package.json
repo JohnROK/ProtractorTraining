@@ -1,0 +1,9 @@
+{
+  "name": "x",
+  "version": "0.0.1",
+  "description": "Dependencies for the Utility Modules",
+  "dependencies": {
+    "request": "latest",
+    "socket.io-client": "latest"
+  }
+}
