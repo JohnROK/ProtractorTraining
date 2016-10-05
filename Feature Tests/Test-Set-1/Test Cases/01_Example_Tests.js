@@ -39,7 +39,7 @@
     //Wait for the 'About Page' to load.
     browser.driver.wait(protractor.until.elementLocated(by.id('pageAbout')), 20000);
 
-    describe('Testing state commands Start, Hold, Restart, and Stop at the BPC recipe level:', function () {
+    describe('Test Case Example :', function () {
         it('Start the batch', function (done) {
             navigate.toPage('batches');
             browser.driver.wait(protractor.until.elementLocated(by.id('pageBatches')), 10000);
@@ -137,7 +137,7 @@
                 });
         });
 
-        it('Return to the Batches page and command the batch into Auto mode', function (done) {
+        it('Return to the Batches page ', function (done) {
             navigate.toPage('batches')
                 .then(function () {
                     return selectBatch.byName('VANILLA_BATCH');

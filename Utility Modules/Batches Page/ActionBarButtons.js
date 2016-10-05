@@ -88,7 +88,8 @@
                                                                     console.log('Button click failed, attempting again for ' + button);
                                                                     buttonClick(button);
                                                                 });
-                                                        }else{
+                                                        }
+                                                        else{
                                                             reject('Failed to click on button ' + button);
                                                         }
                                                     });
